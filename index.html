@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Discover JnJ AutoDetailing. Explore vehicle detailing services and enquire about your next car detail.">
+  <title>JnJ AutoDetailing | Driven by Detail</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://images.unsplash.com">
+</head>
+<body>
+  <div class="announcement">
+    PRECISION CARE. PREMIUM FINISH. <span>YOUR CAR, REIMAGINED.</span>
+  </div>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="logo-mark">J<span>&</span>J</span>
+      <span class="logo-copy">AUTO<span>DETAILING</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="navigation">
+      <a href="#services">Services</a>
+      <a href="#experience">Our approach</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">ENQUIRE NOW ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> THE DETAILING EXPERIENCE</div>
+        <h1>NOT JUST CLEAN.<br><span>EXTRAORDINARY.</span></h1>
+        <p>
+          Give your vehicle the attention it deserves.
+          Explore premium car care and detailing services
+          designed around a cleaner, sharper finish.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="button button-gold">ENQUIRE ABOUT A DETAIL ↗</a>
+          <a href="#services" class="button button-outline">EXPLORE SERVICES</a>
+        </div>
+        <div class="hero-note">
+          <span class="pulse"></span>
+          YOUR VEHICLE. OUR ATTENTION TO DETAIL.
+        </div>
+      </div>
+      <div class="hero-index">JNJ / 001</div>
+      <a href="#services" class="scroll-cue">SCROLL TO DISCOVER ↓</a>
+    </section>
+
+    <section class="intro section" id="experience">
+      <div class="section-label">01 / THE PHILOSOPHY</div>
+      <div class="intro-grid">
+        <h2>THE DIFFERENCE<br>IS IN THE <span>DETAIL.</span></h2>
+        <div>
+          <p class="intro-copy">
+            Great car care is more than a quick wash. It's about
+            the details you notice, the finish you appreciate
+            and the pride you feel when you get behind the wheel.
+          </p>
+          <a href="#contact" class="text-link">LET'S TALK ABOUT YOUR CAR ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-label">02 / WHAT WE DO</div>
+      <div class="section-heading">
+        <div>
+          <h2>CARE THAT GOES<br><span>BEYOND THE SURFACE.</span></h2>
+        </div>
+        <p>Explore our service categories and enquire about
+          the right treatment for your vehicle.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-number">01</div>
+          <div class="service-icon">✳</div>
+          <h3>PREMIUM CAR WASH</h3>
+          <p>A thorough exterior clean focused on a fresh,
+            polished appearance.</p>
+          <a href="#contact" class="service-link" data-service="Premium Car Wash">ENQUIRE ↗</a>
+        </article>
+
+        <article class="service-card featured">
+          <div class="service-number">02</div>
+          <div class="service-icon">◈</div>
+          <h3>INTERIOR DETAILING</h3>
+          <p>Refresh your cabin with careful attention to
+            interior surfaces and hard-to-reach areas.</p>
+          <a href="#contact" class="service-link" data-service="Interior Detailing">ENQUIRE ↗</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">03</div>
+          <div class="service-icon">◇</div>
+          <h3>EXTERIOR DETAILING</h3>
+          <p>Give your vehicle's exterior extra attention
+            for a clean, refined finish.</p>
+          <a href="#contact" class="service-link" data-service="Exterior Detailing">ENQUIRE ↗</a>
+        </article>
+      </div>
+      <p class="demo-note">Service descriptions are proposed demo content. Confirm the actual services with the business owner before publishing.</p>
+    </section>
+
+    <section class="showcase" id="gallery">
+      <div class="showcase-image"></div>
+      <div class="showcase-content">
+        <div class="section-label">03 / THE FINISH</div>
+        <h2>MAKE EVERY<br>ARRIVAL <span>COUNT.</span></h2>
+        <p>
+          Your vehicle makes an impression before you say a word.
+          Let's help you take better care of it.
+        </p>
+        <a href="#contact" class="button button-gold">DISCUSS YOUR DETAIL ↗</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">04 / LET'S CONNECT</div>
+      <div class="contact-grid">
+        <div>
+          <h2>READY FOR A<br><span>FRESH FINISH?</span></h2>
+          <p>Tell us what your vehicle needs and enquire about
+            available services and appointments.</p>
+          <div class="contact-detail">
+            <span class="contact-symbol">↗</span>
+            <div><small>DIRECT ENQUIRIES</small><strong>WhatsApp / Phone</strong></div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-symbol">⌖</span>
+            <div><small>FIND THE BUSINESS</small><strong>Location details to be confirmed</strong></div>
+          </div>
+        </div>
+
+        <form id="bookingForm" class="booking-form">
+          <label for="customerName">YOUR NAME</label>
+          <input id="customerName" name="name" placeholder="Enter your name" required>
+
+          <label for="vehicle">YOUR VEHICLE</label>
+          <input id="vehicle" name="vehicle" placeholder="e.g. Toyota Mark X" required>
+
+          <label for="service">SERVICE OF INTEREST</label>
+          <select id="service" name="service" required>
+            <option value="">Choose a service</option>
+            <option>Premium Car Wash</option>
+            <option>Interior Detailing</option>
+            <option>Exterior Detailing</option>
+            <option>Other / Need advice</option>
+          </select>
+
+          <label for="customerMessage">ADDITIONAL DETAILS</label>
+          <textarea id="customerMessage" name="message"
+            placeholder="Tell us what your car needs"></textarea>
+
+          <button class="button button-gold submit-button" type="submit">
+            PREPARE WHATSAPP ENQUIRY ↗
+          </button>
+          <p class="form-note">Demo form: WhatsApp contact details must be configured before use.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-mark">J<span>&</span>J</span>
+      <span class="logo-copy">AUTO<span>DETAILING</span></span>
+    </a>
+    <p>DETAIL MATTERS. EVERY TIME.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <small class="footer-bottom">Website concept demonstration · Business details pending verification</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
